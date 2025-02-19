@@ -56,7 +56,7 @@ Reference Doc: https://aquasecurity.github.io/trivy/v0.55/getting-started/instal
 
 
 
-# Deployment Stages: (Credit to @amonkincloud for the pipeline diagram and code)
+# Deployment Stages: (Credit to @amonkincloud for the pipeline diagram)
 <img width="966" alt="Screenshot 2024-09-15 at 7 20 49 AM" src="https://github.com/user-attachments/assets/ddb5e618-79ab-49b3-8f13-b5114824eec3">
 
 
