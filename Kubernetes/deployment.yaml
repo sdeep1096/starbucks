@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: starbucks
+  labels:
+    app: starbucks
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: starbucks
+  template:
+    metadata:
+      labels:
+        app: starbucks
+    spec:
+      containers:
+        - name: starbucks
+          image: briarheart1096/starbucks:latest
+          ports:
+            - containerPort: 3000
